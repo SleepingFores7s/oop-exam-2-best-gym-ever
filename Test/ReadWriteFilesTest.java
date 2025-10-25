@@ -1,5 +1,3 @@
-package Objectorienterad_Programmering_och_Java.BestGymEver;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -15,7 +13,7 @@ class ReadWriteFilesTest {
 
     @BeforeEach
     void setUp() {
-        String filePathTest = "Test/Objectorienterad_Programmering_och_Java/ExaminationWork_2/TextFilesTests/TextTest.txt";
+        String filePathTest = "Test/TextFilesTests/TextTest.txt";
         readWriteFiles.readFileData(filePathTest);
 
         //Index 0
