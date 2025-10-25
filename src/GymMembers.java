@@ -1,5 +1,3 @@
-package Objectorienterad_Programmering_och_Java.BestGymEver;
-
 public class GymMembers {
 
     private String name;
