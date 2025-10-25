@@ -1,5 +1,3 @@
-package Objectorienterad_Programmering_och_Java.BestGymEver;
-
 import javax.swing.*;
 
 public class BestGymEver {
@@ -9,7 +7,8 @@ public class BestGymEver {
     public void MemberProgram() {
 
         //Essentials
-        final String GYM_DATA_PATH = "src/Objectorienterad_Programmering_och_Java/ExaminationWork_2/Resources/Data till inlämningsuppgift 2.txt";
+        final String GYM_DATA_PATH = "src/Resources/Data till inlämningsuppgift 2.txt";
+        final String PT_FILE_PATH = "src/Resources/PT_Info.txt";
         ReadWriteFiles readWrite = new ReadWriteFiles();
         GymMembers gymMember;
 
@@ -41,14 +40,13 @@ public class BestGymEver {
                 //Calls and builds the complete information message.
                 String completeMessage = getCompleteMessage(daysSinceLastPayment, gymMember);
 
-                //TODO - Needs to exclude expired people from getting sent to PT file
                 if(gymMember.isMembershipStatus()) {
 
                     //Builds the message to PT file
                     String messageToPT = readWrite.getPrintToPTFile(false, gymMember);
 
                     //Writes to PT file
-                    readWrite.printToPTFile(messageToPT);
+                    readWrite.printToPTFile(PT_FILE_PATH, messageToPT);
 
                 }
 

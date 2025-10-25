@@ -1,5 +1,3 @@
-package Objectorienterad_Programmering_och_Java.BestGymEver;
-
 import javax.swing.JOptionPane;
 import java.io.*;
 import java.time.LocalDate;
@@ -101,9 +99,8 @@ public class ReadWriteFiles {
     }
 
     //Writes PT message to PT file
-    public void printToPTFile(String messageToPtFile) {
+    public void printToPTFile(String PT_FILE_PATH, String messageToPtFile) {
 
-        final String PT_FILE_PATH = "src/Objectorienterad_Programmering_och_Java/ExaminationWork_2/Resources/PT_Info.txt";
         try(BufferedWriter buffWrite = new BufferedWriter(new FileWriter(PT_FILE_PATH, true))) {
 
             buffWrite.write(messageToPtFile + System.lineSeparator());
