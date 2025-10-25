@@ -1,0 +1,2 @@
+Linda Nyberg;Grangatan 6, 47371 Halmstad;rally@fakemail.se;490827-3164;2023-10-10;2024-10-10;Platina
+Oskar Bengtsson;Ängstorget 59, 24436 Lund;lucky@fakemail.com;361015-9737;2021-08-09;2023-08-09;Guld
