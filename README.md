@@ -10,20 +10,20 @@ BestGymEver är ett Java-baserat program som simulerar ett enkelt gymhanteringss
 - JUnit 5 för testning
 - Ingen databas – all data sparas lokalt
 
-🗂️ Filstruktur
-ExaminationWork_2/
-├── Resources/
-│   ├── Data till inlämningsuppgift 2.txt
-│   ├── PT_Info.txt
-├── BestGymEver.java
-├── GymMembers.java
-├── Main.java
-├── ReadWriteFiles.java
-Test/
-└── ExaminationWork_2/
-    └── TextFilesTests/
-        ├── TestFilesTest.txt
-        └── ReadWriteFilesTest.java
+<pre>
+    plaintextExaminationWork_2/
+    ├── src/
+    │   ├── Resources/
+    |   |   ├── Data till inlämningsuppgift 2.txt
+    |   |   └── PT_Info.txt
+    │   ├── BestGymEver.java
+    │   ├── GymMembers.java
+    │   ├── Main.java
+    │   └── ReadWriteFiles.java
+    ├── Test/
+    │   └── TextFilesTests/
+    │       └── ReadWriteFilesTest.java
+    </pre>
 
 
 🚀 Kom igång – steg för steg
