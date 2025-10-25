@@ -1,5 +1,3 @@
-package Objectorienterad_Programmering_och_Java.BestGymEver;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
